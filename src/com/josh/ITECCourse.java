@@ -9,6 +9,31 @@ public class ITECCourse {
     private String name;
     private int code;
     private ArrayList<String> students;
+
+    public int getMaxStudents() {
+        return maxStudents;
+    }
+
+    public void setMaxStudents(int maxStudents) {
+        this.maxStudents = maxStudents;
+    }
+
+    public ArrayList<String> getStudents() {
+        return students;
+    }
+
+    public void setStudents(ArrayList<String> students) {
+        this.students = students;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
     private int maxStudents;
     private String room;
 

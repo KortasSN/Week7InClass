@@ -1,5 +1,8 @@
 package com.josh;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class ITECCourseManager {
     public static void main(String args[]) {
 
@@ -52,7 +55,18 @@ public class ITECCourseManager {
         infoTechConcepts.addStudent("Max");
         infoTechConcepts.addStudent("Nancy");
         infoTechConcepts.addStudent("Orson");
+
+
+    // Problem 3
+
+        /*ArrayList<ITECCourse> allCourses = new ArrayList<>();
+        for (int x = 0; x < ITECCourse.)
+        allCourses.add
+*/
     }
+
+
+
 
 }
 
