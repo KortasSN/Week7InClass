@@ -10,7 +10,7 @@ public class ITECCourse {
     private int code;
     private ArrayList<String> students;
     private int maxStudents;
-    private int room;
+    private String room;
 
     public String getCourseName() {
         return this.name;
@@ -20,8 +20,16 @@ public class ITECCourse {
         this.name = newName;
     }
 
+    public String getRoomName() {
+        return this.room;
+    }
+
+    public void setRoomName(String newRoom) {
+        this.room = newRoom;
+    }
+
     //Constructor
-    public ITECCourse(String courseName, int courseCode, int courseMaxStudents, int courseRoom) {
+    public ITECCourse(String courseName, int courseCode, int courseMaxStudents, String courseRoom) {
         this.name = courseName;
         this.code = courseCode;
         this.students = new ArrayList<String>();
