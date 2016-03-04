@@ -59,11 +59,14 @@ public class ITECCourseManager {
 
     // Problem 3
 
-        /*ArrayList<ITECCourse> allCourses = new ArrayList<>();
-        for (int x = 0; x < ITECCourse.)
-        allCourses.add
-*/
-    }
+        ArrayList<ITECCourse> allCourses = new ArrayList<>();
+        allCourses.add(infoTechConcepts);
+        allCourses.add(smallCourse);
+        allCourses.add(javaProgramming);
+        allCourses.add(datacomCourse);
+        allCourses.add(maintenanceCourse);
+
+            }
 
 
 

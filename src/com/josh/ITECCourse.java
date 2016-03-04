@@ -9,6 +9,9 @@ public class ITECCourse {
     private String name;
     private int code;
     private ArrayList<String> students;
+    private int maxStudents;
+    private String room;
+
 
     public int getMaxStudents() {
         return maxStudents;
@@ -34,8 +37,6 @@ public class ITECCourse {
         this.code = code;
     }
 
-    private int maxStudents;
-    private String room;
 
     public String getCourseName() {
         return this.name;
@@ -61,6 +62,7 @@ public class ITECCourse {
         this.maxStudents = courseMaxStudents;
         this.room = courseRoom;
     }
+
 
     public void writeCourseInfo() {
         System.out.println("Course Name: " + this.name);
@@ -99,5 +101,6 @@ public class ITECCourse {
 
         }
     }
-}
+    }
+
 //Other methods follow...
