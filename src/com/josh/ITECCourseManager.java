@@ -4,7 +4,7 @@ public class ITECCourseManager {
     public static void main(String args[]) {
 
         ITECCourse maintenanceCourse =
-                new ITECCourse("Microcomputer Systems Maintenance", 1310, 20);
+                new ITECCourse("Microcomputer Systems Maintenance", 1310, 20, 123);
 
         //Add some students
         maintenanceCourse.addStudent("Anna");
@@ -14,7 +14,7 @@ public class ITECCourseManager {
         maintenanceCourse.writeCourseInfo();
 
         ITECCourse datacomCourse =
-                new ITECCourse("Data Communications", 1425, 30);
+                new ITECCourse("Data Communications", 1425, 30, 456);
 
         //Add some students
         datacomCourse.addStudent("Dave");
@@ -22,9 +22,9 @@ public class ITECCourseManager {
         datacomCourse.addStudent("Flora");
 
         datacomCourse.writeCourseInfo();
-//asdfasdasdfasdf
+
         ITECCourse javaProgramming =
-                new ITECCourse("Java Programming", 2545, 24);
+                new ITECCourse("Java Programming", 2545, 24, 789);
 
         //Add some students
         javaProgramming.addStudent("Gus");
@@ -39,7 +39,7 @@ public class ITECCourseManager {
         javaProgramming.writeCourseInfo();
 
         ITECCourse smallCourse =
-                new ITECCourse("Small Course", 1111, 3);
+                new ITECCourse("Small Course", 1111, 3, 321);
         smallCourse.addStudent("Jake");
         smallCourse.addStudent("Kirby");
         smallCourse.addStudent("Liam");

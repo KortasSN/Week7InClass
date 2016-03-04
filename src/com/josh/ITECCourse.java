@@ -10,18 +10,29 @@ public class ITECCourse {
     private int code;
     private ArrayList<String> students;
     private int maxStudents;
+    private int room;
+
+    public String getCourseName() {
+        return this.name;
+    }
+
+    public void setCourseName(String newName) {
+        this.name = newName;
+    }
 
     //Constructor
-    public ITECCourse(String courseName, int courseCode, int courseMaxStudents) {
+    public ITECCourse(String courseName, int courseCode, int courseMaxStudents, int courseRoom) {
         this.name = courseName;
         this.code = courseCode;
         this.students = new ArrayList<String>();
         this.maxStudents = courseMaxStudents;
+        this.room = courseRoom;
     }
 
     public void writeCourseInfo() {
         System.out.println("Course Name: " + this.name);
         System.out.println("Course Code: " + this.code);
+        System.out.println("Course Room: " + this.room);
         System.out.println("Students enrolled:");
         for (String student : this.students) {
             System.out.println(student);
