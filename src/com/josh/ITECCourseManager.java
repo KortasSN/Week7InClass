@@ -15,6 +15,7 @@ public class ITECCourseManager {
         maintenanceCourse.addStudent("Carl");
 
         maintenanceCourse.writeCourseInfo();
+        maintenanceCourse.getRoomLeft();
 
         ITECCourse datacomCourse =
                 new ITECCourse("Data Communications", 1425, 30, "T456");
@@ -25,7 +26,7 @@ public class ITECCourseManager {
         datacomCourse.addStudent("Flora");
 
         datacomCourse.writeCourseInfo();
-
+        datacomCourse.getRoomLeft();
         ITECCourse javaProgramming =
                 new ITECCourse("Java Programming", 2545, 24, "T789");
 
@@ -38,8 +39,9 @@ public class ITECCourseManager {
 
         javaProgramming.removeStudent("Izzy");
         javaProgramming.removeStudent("Bob");
-
+        javaProgramming.getRoomLeft();
         javaProgramming.writeCourseInfo();
+
 
         ITECCourse smallCourse =
                 new ITECCourse("Small Course", 1111, 3, "T321");
@@ -48,14 +50,18 @@ public class ITECCourseManager {
         smallCourse.addStudent("Liam");
         smallCourse.addStudent("Marigold");
 
-
+        smallCourse.getRoomLeft();
+        smallCourse.writeCourseInfo();
 
         ITECCourse infoTechConcepts =
+
+
+
                 new ITECCourse("Info Tech Concepts", 1100, 30, "T3050");
         infoTechConcepts.addStudent("Max");
         infoTechConcepts.addStudent("Nancy");
         infoTechConcepts.addStudent("Orson");
-
+        infoTechConcepts.getRoomLeft();
 
     // Problem 3
 
