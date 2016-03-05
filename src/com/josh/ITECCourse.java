@@ -43,7 +43,6 @@ public class ITECCourse {
         this.code = code;
     }
 
-
     public String getCourseName() {
         return this.name;
     }
@@ -67,6 +66,7 @@ public class ITECCourse {
         this.students = new ArrayList<String>();
         this.maxStudents = courseMaxStudents;
         this.room = courseRoom;
+        //this.roomLeft = 0;
     }
 
     public int getRoomLeft() {
@@ -88,7 +88,7 @@ public class ITECCourse {
         }
         System.out.println("There are " + getNumberOfStudents() + " students enrolled");
         System.out.println("The max number of students for this course is  " + this.maxStudents);
-        System.out.println("There are " + this.roomLeft + " in " + this.name + ".");
+        System.out.println("There are " + roomLeft + " spaces left in " + this.name + ".");
     }
 
     int getNumberOfStudents() {

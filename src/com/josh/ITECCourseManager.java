@@ -14,8 +14,9 @@ public class ITECCourseManager {
         maintenanceCourse.addStudent("Bill");
         maintenanceCourse.addStudent("Carl");
 
-        maintenanceCourse.writeCourseInfo();
         maintenanceCourse.getRoomLeft();
+        maintenanceCourse.writeCourseInfo();
+
 
         ITECCourse datacomCourse =
                 new ITECCourse("Data Communications", 1425, 30, "T456");
@@ -25,8 +26,9 @@ public class ITECCourseManager {
         datacomCourse.addStudent("Ed");
         datacomCourse.addStudent("Flora");
 
-        datacomCourse.writeCourseInfo();
         datacomCourse.getRoomLeft();
+        datacomCourse.writeCourseInfo();
+
         ITECCourse javaProgramming =
                 new ITECCourse("Java Programming", 2545, 24, "T789");
 
@@ -47,22 +49,19 @@ public class ITECCourseManager {
                 new ITECCourse("Small Course", 1111, 3, "T321");
         smallCourse.addStudent("Jake");
         smallCourse.addStudent("Kirby");
-        smallCourse.addStudent("Liam");
-        smallCourse.addStudent("Marigold");
+        //smallCourse.addStudent("Liam");
+        //smallCourse.addStudent("Marigold");
 
         smallCourse.getRoomLeft();
         smallCourse.writeCourseInfo();
 
         ITECCourse infoTechConcepts =
-
-
-
                 new ITECCourse("Info Tech Concepts", 1100, 30, "T3050");
         infoTechConcepts.addStudent("Max");
         infoTechConcepts.addStudent("Nancy");
         infoTechConcepts.addStudent("Orson");
         infoTechConcepts.getRoomLeft();
-
+        infoTechConcepts.writeCourseInfo();
     // Problem 3
 
         ArrayList<ITECCourse> allCourses = new ArrayList<>();
