@@ -74,9 +74,11 @@ public class ITECCourse {
         return roomLeft;
     }
 
+    /* What happens if you have 10 students in a class of 30 and someone sets this to 100? roomLeft should be 
+    a value that your object will calculate, don't permit outside classes to edit it 
     public void setRoomLeft(int roomLeft) {
         this.roomLeft = roomLeft;
-    }
+    }*/
 
     public void writeCourseInfo() {
         System.out.println("Course Name: " + this.name);
@@ -88,7 +90,7 @@ public class ITECCourse {
         }
         System.out.println("There are " + getNumberOfStudents() + " students enrolled");
         System.out.println("The max number of students for this course is  " + this.maxStudents);
-        System.out.println("There are " + roomLeft + " spaces left in " + this.name + ".");
+        System.out.println("There are " + getRoomLeft() + " spaces left in " + this.name + ".");
     }
 
     int getNumberOfStudents() {
